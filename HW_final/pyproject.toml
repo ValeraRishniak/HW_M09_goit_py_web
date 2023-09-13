@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "MODULE-09"
+version = "0.1.0"
+description = "Web-scraping"
+authors = ["Rishniak Valerii"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lxml = "^4.9.3"
+scrapy = "^2.10.1"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+mongoengine = "^0.27.0"
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
